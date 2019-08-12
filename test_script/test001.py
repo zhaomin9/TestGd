@@ -6,7 +6,7 @@ class Test_Abc:
     # 添加严重级别
     @allure.severity(allure.severity_level.CRITICAL)
     # 测试用例链接，用例的地址
-    @allure.testcase('http://www.baidu.com/test_001')
+    @allure.testcase('http://www.baidu.com/test001')
     def test_abc_001(self):
         # 添加测试描述('描述内容','描述标题',)
         allure.attach('我是测试001的描述～～～','描述')
